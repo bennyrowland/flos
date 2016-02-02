@@ -1,0 +1,29 @@
+{
+  "name": "flos",
+  "description": "MRS data processing tool",
+  "main": "backend/index.js",
+  "authors": [
+    "bennyrowland"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "mrs",
+    "processing"
+  ],
+  "homepage": "https://github.com/bennyrowland/flos",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-route": "~1.4.8",
+    "angular-bootstrap": "~1.1.0",
+    "bootstrap-css-only": "~3.3.6",
+    "ng-flow-chart": "~0.0.1"
+  }
+}
