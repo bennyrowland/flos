@@ -1,0 +1,39 @@
+body {
+  background-color: gray;
+}
+
+.inport {
+  display: block;
+}
+
+.left-sidebar {
+  position: absolute;
+  right: 70%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: lightgray;
+}
+
+ul {
+  padding: 0;
+}
+
+.log-window {
+  background-color: white;
+  position: absolute;
+  top: 70%;
+  white-space: pre-line;
+  bottom: 0;
+  left: 30%;
+  right: 0;
+  overflow: auto;
+}
+
+.graph-window {
+  position: absolute;
+  left: 30%;
+  bottom: 30%;
+  width: 70%;
+  height: 70%;
+}

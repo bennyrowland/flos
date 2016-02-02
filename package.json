@@ -1,0 +1,53 @@
+{
+  "name": "flos",
+  "version": "0.0.1",
+  "description": "MRS data processing tool",
+  "main": "backend/index.js",
+  "scripts": {
+    "test": "./node_modules/lab/bin/lab -a code -v -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennyrowland/flos.git"
+  },
+  "keywords": [
+    "mrs",
+    "processing"
+  ],
+  "author": "bennyrowland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bennyrowland/flos/issues"
+  },
+  "homepage": "https://github.com/bennyrowland/flos#readme",
+  "dependencies": {
+    "bower": "^1.7.2",
+    "glue": "^3.0.0",
+    "good": "^6.4.0",
+    "good-console": "^5.2.0",
+    "hapi": "^12.1.0",
+    "inert": "^3.2.0",
+    "joi": "^7.2.1",
+    "moment": "^2.11.1",
+    "nano": "^6.1.5",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {
+    "event-stream": "^3.3.2",
+    "gulp": "^3.9.0",
+    "gulp-angular-filesort": "^1.1.1",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-htmlhint": "^0.3.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-order": "^1.1.1",
+    "gulp-print": "^2.0.1",
+    "gulp-sass": "^2.1.1",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "lab": "^8.0.2",
+    "main-bower-files": "^2.11.1"
+  }
+}

@@ -1,0 +1,6 @@
+<ul>
+<li ng-repeat="inport in inportList" class="inport">
+    {{inport.name}}<br>
+    <input type="text" ng-model="parameterValues[inport.name]" ng-trim="false" style="width: 100%;">
+</li>
+</ul>

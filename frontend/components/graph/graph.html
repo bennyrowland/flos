@@ -1,0 +1,24 @@
+<!--{{graph_spec}}-->
+
+<uib-accordion close-others="false" class="left-sidebar">
+    <uib-accordion-group heading="Edit">
+        <ng-flow-library>
+        </ng-flow-library>
+    </uib-accordion-group>
+    <uib-accordion-group heading="Run" is-open="true">
+        <inports inport-list="graphSpec.specification.inports" parameter-values="inports.parameterValues"></inports>
+
+        <button type="button" ng-click="saveGraph()">Save</button>
+
+        <button type="button" ng-click="runGraph()">Run Graph</button>
+
+    </uib-accordion-group>
+</uib-accordion>
+
+<ng-flow-chart graph-spec="graphSpec.specification" class="graph-window">
+
+</ng-flow-chart>
+
+<span class="log-window">
+{{graphOutput.output}}
+</span>
