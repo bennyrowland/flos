@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/bennyrowland/flos#readme",
   "dependencies": {
+    "boom": "^3.1.2",
     "bower": "^1.7.2",
     "glue": "^3.0.0",
     "good": "^6.4.0",
@@ -30,6 +31,7 @@
     "joi": "^7.2.1",
     "moment": "^2.11.1",
     "nano": "^6.1.5",
+    "socket.io": "^1.4.5",
     "socketio": "^1.0.0"
   },
   "devDependencies": {
